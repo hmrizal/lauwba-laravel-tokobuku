@@ -47,6 +47,7 @@
                                     @if ($dasar->diskon > 0)
                                         <td>{{ $dasar->diskon }}%</td>
                                     @else
+                                    
                                         <td></td>
                                     @endif
                                     <td>{{ $dasar->stok }}</td>
